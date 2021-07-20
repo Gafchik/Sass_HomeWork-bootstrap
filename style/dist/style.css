@@ -1,0 +1,146 @@
+.header {
+  background-color: #451EE3;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header .header_img {
+  max-width: 50px;
+  max-height: 50px;
+  background-color: #451EE3;
+}
+.header .header_txt {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #E9DADA;
+}
+
+.top {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.top .top_header {
+  margin-left: 45%;
+  font-size: 30px;
+  font: bold;
+  color: #030101;
+}
+.top .colors {
+  margin-top: -4%;
+}
+.top .colors .colors_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+.top .colors .colors_item .colors_item_txt {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.top .colors .colors_item .colors_item_circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 44px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #030101;
+}
+
+.lesson_name {
+  font-size: 30px;
+  margin-left: 25px;
+  font: bold;
+}
+
+.home_work_btn_is_remove, .home_work_btn_browse, .home_work_blocks .home_work_date, .home_work_blocks .home_work_txt {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.home_work_green, .home_work_red, .home_work_blue, .home_work_blocks .home_work_white {
+  max-width: 300px;
+  min-width: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.home_work_blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: baseline;
+}
+.home_work_blocks .home_work_white {
+  background-color: #E9DADA;
+}
+.home_work_btn_browse {
+  max-width: 260px;
+  min-width: 260px;
+  padding-right: 5px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #030101;
+  background-color: #fff;
+}
+.home_work_btn_browse input {
+  border-radius: 20px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.home_work_btn_is_remove button {
+  background-color: #451EE3;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  color: #fff;
+  max-width: 125px;
+  min-width: 125px;
+  max-height: 30px;
+  min-height: 30px;
+}
+
+.home_work_blue {
+  color: #fff;
+  background-color: #451EE3;
+}
+
+.home_work_red {
+  background-color: #E74E1A;
+}
+
+.home_work_green {
+  background-color: #0FE721;
+}
+.home_work_green button {
+  background-color: #0FE721;
+}
+
+#avatar {
+  float: right;
+}
+
+#white {
+  background-color: #E9DADA;
+}
+
+#green {
+  background-color: #0FE721;
+}
+
+#blue {
+  background-color: #451EE3;
+}
+
+#red {
+  background-color: #E74E1A;
+}
